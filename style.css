@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+   
+  }
+  
+  .box_one {
+    display: flex;
+  }
+  .box_one div{
+    background-color: blue;
+    padding: 30px;
+    width: 50vh;
+    height: 50vh;
+  }
+
+.box_one, .box_inner {
+    border: 12px solid;
+}
+  
+  .box_one div > p {
+    font-weight: 200;
+    font-size: 32px;
+    color: purple;
+  }
+
+  p + p {
+    margin-top:  10px;
+  }
+.box_inner:hover{
+    background-color: green;
+}
+ 
